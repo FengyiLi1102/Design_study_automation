@@ -16,15 +16,15 @@ void setup() {
 
 void loop() {
     while (power<250) {
-        power=power+5;
+        power=power+10;
         Serial.println(power);
         analogWrite(MP2,power)
-        delay(100);
+        delay(500);
     }
-    while (power>5) {
-        power=power-5;
+    while (power>10) {
+        power=power-10;
         Serial.println(power);
         analogWrite(MP2,power)
-        delay(100);
+        delay(500);
     }
 }
