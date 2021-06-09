@@ -8,9 +8,9 @@ void setup(){
     
     /* Controlling in the setup is for chaning the distance once*/
     digitalWrite(servopin, HIGH);
-    delayMicroseconds(unsigned int); // Change the delay time for changing the angle
+    delayMicroseconds(100); // Change the delay time for changing the angle
     digitalWrite(servopin, LOW);
-    delay(20);
+    delay(10000);
 }
 
 void loop(){
